@@ -16,8 +16,8 @@ O Django Marketplace é um projeto de marketplace desenvolvido usando o framewor
 
 2. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/django-marketplace.git
-   cd django-marketplace
+   git clone https://github.com/AllissonChervenski/Puddle.git
+   cd Puddle
    ```
 
 3. **Configuração do Ambiente Virtual:**
@@ -28,22 +28,17 @@ O Django Marketplace é um projeto de marketplace desenvolvido usando o framewor
    .\venv\Scripts\activate  # Windows
    ```
 
-4. **Instale as Dependências:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Configuração do Banco de Dados:**
+4. **Configuração do Banco de Dados:**
    ```bash
    python manage.py migrate
    ```
 
-6. **Execute o Servidor de Desenvolvimento:**
+5. **Execute o Servidor de Desenvolvimento:**
    ```bash
    python manage.py runserver
    ```
 
-7. **Acesse a Aplicação:**
+6. **Acesse a Aplicação:**
    Abra o navegador e acesse `http://127.0.0.1:8000/`.
 
 ## Contribuições
