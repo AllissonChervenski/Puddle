@@ -27,18 +27,24 @@ O Django Marketplace é um projeto de marketplace desenvolvido usando o framewor
    # Ou
    .\venv\Scripts\activate  # Windows
    ```
+4. **Instalando dependências:**
+   Instale as dependências no ambiente virtual
+   ```bash
+   python -m pip install Django
+   python -m pip install Pillow
+   ```
 
-4. **Configuração do Banco de Dados:**
+5. **Configuração do Banco de Dados:**
    ```bash
    python manage.py migrate
    ```
 
-5. **Execute o Servidor de Desenvolvimento:**
+6. **Execute o Servidor de Desenvolvimento:**
    ```bash
    python manage.py runserver
    ```
 
-6. **Acesse a Aplicação:**
+7. **Acesse a Aplicação:**
    Abra o navegador e acesse `http://127.0.0.1:8000/`.
 
 ## Contribuições
